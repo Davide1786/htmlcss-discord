@@ -163,6 +163,12 @@ li a {
 
 /* section step uno e tre*/
 
+/* .trasparenza {
+    opacity: 0.2;
+    fill-opacity: 0.4;
+} */
+
+
 .step {
     width: 100%;
     height: 700px;
@@ -205,12 +211,34 @@ p {
 
 /* section step due */
 
+.magia {
+    position: absolute;
+    top: 0;
+    margin-top: -150px;
+    background-image: url(../img/wave.svg);
+    width: 100%;
+    height: 67%;
+    opacity: 0.1;
+    transform: translateX(0px) scaleY(1.0);
+}
+
+.magiarot {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -80px;
+    background-image: url(../img/wave.svg);
+    width: 100%;
+    height: 66%;
+    opacity: 0.1;
+    transform: rotate(180deg) scaleY(1.0);
+}
+
 .due {
     width: 100%;
     height: 700px;
     margin: 0, auto;
     position: relative;
-    margin-top: 150px;  
+    margin-top: 150px; 
 }
 
 .prova {
@@ -287,6 +315,18 @@ p {
     display: inline-block;
     margin-right: 5px;
     margin-top: 20px;
+}
+
+
+.magiabug {
+    position: absolute;
+    top: 0;
+    margin-top: -150px;
+    background-image: url(../img/wave.svg);
+    width: 100%;
+    height: 67%;
+    opacity: 0.1;
+    transform: translateX(0px)  scaleY(1.5);
 }
 /* fine section quattro */
 
