@@ -6,14 +6,23 @@ box-sizing: border-box;
 
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-
 }
+
+/* common */
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* fine common */
 
 /* header */
 
 #main-header {
-    background-color: #404EED;
-    width: 100%;
+    background-color: #255EE9;
+    width: 100vw;
     height: 70px;
     text-align: center;
     position: fixed;
@@ -21,18 +30,19 @@ body {
 }
 
 nav {
-    /* background-color: red; */
-    width: 80%;
+    width: 60vw;
     height: 70px;
     margin: 0 auto;
     position: relative;
 }
 
 #main-header nav li {
-    padding-right: 25px;
-    margin: 0 5px;
+    margin: 0 30px;
     display: inline-block;
     line-height: 70px;
+}
+
+li a {
     color: white;
 }
 
@@ -46,12 +56,20 @@ nav {
 }
 
 .tastodx {
-    vertical-align: middle;
-    height: auto;
+    /* vertical-align: middle; */
+    /* height: auto; */
+    height: 35px;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
+   
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 20px;
+    cursor: pointer; 
 }
 
 #main-header nav li a {
@@ -59,8 +77,143 @@ nav {
     text-decoration: none;
     padding: 0 5px;
 }
-
-
 /* fine header */
 
+/* main */
 
+/* section step */
+
+.banner {
+    height: 700px;
+    width: 100vw;
+    position: relative;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: white;
+    font-size: 60px;
+    display: block;
+}
+
+.off {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    display: block;
+
+}
+
+
+.sfondo {
+    padding: 30px;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.white {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+   }
+
+ .black {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+ } 
+ 
+ h2 {
+     margin-left: 20px;
+ }
+
+ .fas {
+     margin-right: 15px;
+ }
+
+/* fine section step */
+
+/* section step uno */
+
+.step {
+    width: 100%;
+    height: 700px;
+    margin: 0, auto;
+    position: relative;
+}
+
+.prova {
+    height: 100%;
+    padding: 60px 0;
+}
+
+.box img {
+   width: 80%;
+}
+
+.box {
+   float: left;
+   width: 50%;
+   text-align: right;
+   height: 100%;
+}
+
+.testo {
+    float: right;
+    width: 50%;
+    text-align: left;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+/* fine section step */
+
+
+
+/* fine main */
+
+
+
+
+
+  
