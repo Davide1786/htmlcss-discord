@@ -8,16 +8,6 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-/* common */
-
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* fine common */
-
 /* header */
 
 #main-header {
@@ -163,18 +153,12 @@ li a {
 
 /* section step uno e tre*/
 
-/* .trasparenza {
-    opacity: 0.2;
-    fill-opacity: 0.4;
-} */
-
-
 .step {
     width: 100%;
     height: 700px;
     margin: 0, auto;
     position: relative;
-    margin-top: 150px;
+    margin-top: 20px;
 }
 
 .prova {
@@ -214,23 +198,22 @@ p {
 .magia {
     position: absolute;
     top: 0;
-    margin-top: -150px;
-    background-image: url(../img/wave.svg);
+    left: 0;
     width: 100%;
-    height: 67%;
-    opacity: 0.1;
-    transform: translateX(0px) scaleY(1.0);
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.09;
 }
 
 .magiarot {
     position: absolute;
     bottom: 0;
-    margin-bottom: -80px;
-    background-image: url(../img/wave.svg);
+    left: 0;
     width: 100%;
-    height: 66%;
-    opacity: 0.1;
-    transform: rotate(180deg) scaleY(1.0);
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.09;
+    transform: rotate(180deg);
 }
 
 .due {
@@ -241,10 +224,25 @@ p {
     margin-top: 150px; 
 }
 
+.provandolo {
+    width: 100%;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgba(255, 255, 255, 2.2);
+    background-color: #E7E7E7;
+    opacity: 0.9;
+}
+
 .prova {
-    height: 100%;
-    padding: 60px 0;
-    position: relative;
+    width: 100%;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .box-dx {
@@ -272,15 +270,13 @@ p {
     height: 1200px;
     margin: 0, auto;
     position: relative;
-    margin-top: 150px;
 }
 
 .prova-big {
     width: 100%;
-    height: 800px;
-    top: 50%;
+    height: 700px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     position: absolute;
 }
 
@@ -317,17 +313,28 @@ p {
     margin-top: 20px;
 }
 
+.ondafinale {
+    width: 100%;
+    height: 1100px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    background-color: rgba(255, 255, 255, 2.2);
+    background-color: #E7E7E7;
+    opacity: 0.9;
+}
 
-.magiabug {
+.magia {
     position: absolute;
     top: 0;
-    margin-top: -150px;
-    background-image: url(../img/wave.svg);
+    left: 0;
     width: 100%;
-    height: 67%;
-    opacity: 0.1;
-    transform: translateX(0px)  scaleY(1.5);
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.09;
 }
+
 /* fine section quattro */
 
 /* fine main */
@@ -335,7 +342,6 @@ p {
 /* inzio footer */
 
 .footer {
-    margin-top: 50px;
     height: 800px;
     width: 100%;
     background-color: rgb(41, 41, 41);
@@ -428,7 +434,6 @@ span {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-
 }
 
 #flot {
